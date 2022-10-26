@@ -24,6 +24,11 @@ void main()
 (1.0-t)*uPosition.x;
  gl_Position.y = t*iPosition.y +
 (1.0-t)*uPosition.y;
+
+gl_Position.z = t*iPosition.z +
+(1.0-t)*uPosition.z;
+
+
  gl_Position.z = 0.0;
  gl_Position.w = 1.0;
  
