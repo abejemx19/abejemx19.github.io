@@ -1,5 +1,6 @@
 "use strict";
 var gl;
+//var none;
 var points;
 var colors;
 var sliderVal = 1;
